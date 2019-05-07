@@ -1,0 +1,168 @@
+@charset 'uft-8';
+.nav-bar {
+    position: relative;
+    height: 63px;
+    width: 100%;
+    margin-top: 0;
+    color: #616161;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #212121;
+    float: left;
+}
+
+.nav-bar .left {
+    float: left;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 21px;
+}
+
+.nav-bar .right {
+    float: right;
+    margin: 17px 0 0 0;
+}
+
+.box-slide {
+    padding-top: 12px;
+}
+
+.slide-left {
+    position: relative;
+    float: left;
+    height: 600px;
+    margin-left: 0;
+}
+
+.slide-left img {
+    float: none;
+    list-style: none;
+    position: absolute;
+    width: 560px;
+    z-index: 50;
+    display: block;
+    height: 560px;
+}
+
+.slide-right {
+    float: right;
+    margin-left: 12px;
+    width: 606px;
+}
+
+.slide-right h1 {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: normal;
+    color: #212121;
+}
+
+.slide-right>p {
+    color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+}
+
+.price {
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    color: #ff6700;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 0 20px;
+}
+
+.main_>p {
+    margin-bottom: 0;
+    color: #ff6700;
+}
+
+.warp {
+    height: 32px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.warp_l {
+    width: 80px;
+    padding: 2px 0;
+    text-align: center;
+    background: #ff6700;
+    color: #fff;
+    float: left;
+}
+
+.warp_r {
+    float: left;
+    width: 430px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+
+.pro-list {
+    background: #f9f9fa;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    list-style: none;
+    line-height: 30px;
+    color: #616161;
+}
+
+li span {
+    float: right;
+}
+
+.num {
+    color: #ff6700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.btn_ {
+    padding: 0;
+    margin: 10px 0 20px 0;
+}
+
+.btn_ li:nth-of-type(1) {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: text-top;
+    float: left;
+}
+
+.btn_ li:nth-of-type(1) a {
+    background: #ff6700;
+    text-align: center;
+    border-color: #ff6700;
+    display: inline-block;
+    color: #fff;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+}
+
+.btn_ li:nth-of-type(2) a {
+    display: inline-block;
+    width: 140px;
+    background: #b0b0b0;
+    height: 52px;
+    line-height: 52px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}

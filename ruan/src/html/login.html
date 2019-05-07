@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/rest.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <img src="../image/mistore_logo.png" alt="">
+    </div>
+    <div class="login_banner">
+
+    </div>
+    <div class="layout">
+        <div class="login">
+            <div class="nav">
+                <a href="#" style="color:#f56600">帐号登录</a>
+                <span class="line"></span>
+                <a href="#">扫码登录</a>
+            </div>
+            <div class="indoor">
+                <div class="indoor-area">
+                    <form action="../php/login.php" method="POST">
+                        <label for="">
+                          <input type="text" name="loginname" placeholder="邮箱/手机号码/小米ID" id="loginname">
+                        </label>
+                        <span id="error"></span>
+                        <label for="">
+                            <input type="password" name="password" placeholder="密码" id="password">
+                        </label>
+                        <span id="error"></span>
+                        <button class="lo" id="btnadpt">登入</button>
+                        <!-- <input type="submit" id="btnadpt" value="登录" class="lo"> -->
+                    </form>
+                    <div class="login-bo">
+                        <p>手机短信登录/注册</p>
+                        <div>
+                            <a href="#">立即注册</a>
+                            <a href="#">忘记密码?</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="n-foot">
+        <ul>
+            <li>简体</li>
+            <li>繁体</li>
+            <li>English</li>
+            <li>常见问题</li>
+        </ul>
+        <p>小米公司版权所有-京ICP备10046444- -京ICP证110507号</p>
+    </div>
+</body>
+
+</html>

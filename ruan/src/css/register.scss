@@ -1,0 +1,160 @@
+@charset 'utf-8';
+.wrap {
+    padding-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 786px;
+    .log {
+        padding-bottom: 40px;
+        display: block;
+        img {
+            display: block;
+            width: 49px;
+            height: 48px;
+            margin: 0 auto;
+        }
+    }
+    .title {
+        font-size: 30px;
+        h4 {
+            font-weight: normal;
+            margin: 0;
+            color: #333;
+            line-height: 1.5;
+            text-align: center
+        }
+    }
+    .wrap-area {
+        width: 332px;
+        padding: 30px 0;
+        line-height: 20px;
+        margin: 0 auto;
+        h4 {
+            padding-bottom: 5px;
+            color: #333;
+            font-weight: normal;
+            margin: 0;
+        }
+        .wrap-list {
+            position: relative;
+            height: 40px;
+            padding-left: 14px;
+            line-height: 15px;
+            display: inline-block;
+            vertical-align: middle;
+            border: 1px solid #e8e8e8;
+            color: #555;
+            cursor: pointer;
+            p {
+                float: left;
+                width: 275px;
+                border-right: 1px solid #e8e8e8;
+                cursor: pointer;
+            }
+            a {
+                width: 16px;
+                float: right;
+                height: 16px;
+                margin: 11px 12px 0 12px;
+            }
+        }
+        .chen {
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        .phone-number {
+            padding-bottom: 20px;
+            .number {
+                float: left;
+                .tits {
+                    width: 54px;
+                    text-align: center;
+                    padding: 0 9px;
+                    height: 40px;
+                    line-height: 40px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    border: 1px solid #e8e8e8;
+                    p {
+                        margin: 0;
+                        cursor: pointer;
+                        width: auto;
+                        float: left;
+                        border-right: 0 none;
+                    }
+                    a {
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        padding: 2px;
+                    }
+                }
+            }
+            .input {
+                width: 256px;
+                height: 40px;
+                line-height: 40px;
+                display: inline-block;
+                border: 1px solid #e8e8e8;
+                input {
+                    height: 20px;
+                    line-height: 20px;
+                    padding-left: 10px;
+                    display: inline-block;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+        .btn-reg {
+            width: 330px;
+            height: 42px;
+            margin: 0 auto;
+            line-height: 42px;
+            text-align: center;
+            font-size: 14px;
+            display: block;
+            cursor: pointer;
+            background-color: #ff6700;
+            margin-top: 15px;
+            border: 1px solid rgba(186, 186, 186, 0.3);
+            color: #fff;
+        }
+    }
+    //协议
+    .privacy-box {
+        text-align: center;
+        padding-top: 40px;
+        .msg {
+            color: #9d9d9d;
+            label {
+                padding: 10px 0;
+                cursor: pointer;
+                display: inline-block;
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+                a {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+.n-foot {
+    color: #9d9d9d;
+    text-align: center;
+    height: 80px;
+    margin-top: -80px;
+    ul {
+        margin-top: 40px;
+        margin-left: -55px;
+        height: 19px;
+        li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+    }
+}
